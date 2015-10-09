@@ -13,5 +13,15 @@
     "autoload": {
         "psr-0": { "HeVinci\\CompetencyBundle": "" }
     },
-    "target-dir": "HeVinci/CompetencyBundle"
+    "target-dir": "HeVinci/CompetencyBundle",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": [
+            "Claroline\\BundleRecorder\\ScriptHandler::buildBundleFile"
+        ]
+    },
+    "config": {
+        "vendor-dir": "../vendor"
+    }
 }
