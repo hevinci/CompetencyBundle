@@ -1,6 +1,11 @@
 Competency bundle
 =================
 
+WARNING
+-------
+
+**DEVELOPMENT HAS MOVED TO [claroline/Distribution](http://github.com/claroline/Distribution). THIS REPOSITORY IS NO LONGER MAINTAINED.**
+
 [![Build Status](https://travis-ci.org/hevinci/CompetencyBundle.svg?branch=master)](https://travis-ci.org/hevinci/CompetencyBundle)
 
 Installation
